@@ -21,7 +21,7 @@ public class LoyaltyTridentTrackerTask extends BukkitRunnable
         {
             cancel();
         }
-        else if(trident.getLocation().getY() < 0)
+        else if(trident.getLocation().getY() < -63)
         {
             reflectionUtils.setDealtDamage(trident, true);
             cancel();
